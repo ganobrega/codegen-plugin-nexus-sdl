@@ -1,0 +1,16 @@
+{
+    "name": "codegenn-plugin-nexus-sdl",
+    "version": "0.0.0-alpha.1",
+    "main": "dist/nexus.js",
+    "scripts": {
+        "compile": "tsc nexus.ts"
+    },
+    "dependencies": {
+        "nexus": "^1.3.0",
+        "typescript": "^5.0.3"
+    },
+    "devDependencies": {
+        "@graphql-codegen/plugin-helpers": "^4.2.0",
+        "graphql": "^16.6.0"
+    }
+}
